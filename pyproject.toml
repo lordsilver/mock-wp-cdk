@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mock-wp"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{include = "stacks"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aws-cdk-lib = "2.67.0"
+cloudcomponents-cdk-wordpress = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
